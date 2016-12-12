@@ -6752,7 +6752,7 @@ h6,
 /* -----------------------------------------
    GLOBAL HEADER - /source/less/cagov/global-header.less
 ----------------------------------------- */
-#skip-to-content {
+#skip-to-content a:link {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -6761,6 +6761,15 @@ h6,
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
+}
+#skip-to-content a:focus {
+  width: auto;
+  height: auto;
+  background: rgba(255,255,255,0.85);
+  clip: auto;
+  outline: none;
+  border: 0;
+  z-index: 1
 }
 .global-header {
   position: relative;
