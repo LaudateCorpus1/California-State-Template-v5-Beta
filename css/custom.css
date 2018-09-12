@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document - Custom styles that overwrite the template CSS code*/
+
+/* Redefine calls to Source Sans to use a locally hosted version with varying weights. */
+
+@font-face {
+  font-family: 'Source Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('SourceSansPro-Regular'),
+       url(/fonts/SourceSansPro-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Source Sans Bold';
+  font-style: normal;
+  font-weight: 400;
+  src: local('SourceSansPro-Semibold'),
+       url(/fonts/SourceSansPro-Semibold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Source Sans Light';
+  font-style: normal;
+  font-weight: 400;
+  src: local('SourceSansPro-Light'),
+       url(/fonts/SourceSansPro-Light.ttf) format('truetype');
+}
+
+/* It appears that there's a JS function that forces the root em (1em) to be the browser default (16px).  So, I'm recalculating these from there. --KK*/
+body {font-size: 1.25rem; font-family: Source Sans Light;}
+
+h1, h2, h3, h4, h5, h6, .display1 { font-weight: normal; }
+
+h1, h2, h3, .display1, .headline, .subheading2 { font-weight: normal; line-height: 1.3; }
+
+.display1 {
+	font-size: 85px;
+	font-size: 5.25rem;/*line-height: 1.02;*/
+}
+
+h1, .headline {
+	font-size: 45px;
+	font-size: 2.75rem;/*line-height: 1.04;*/
+}
+
+h2, .subheading2 {
+	font-size: 40px;
+	font-size: 2.5rem;/*line-height: 1.075;*/
+}
+
+h3, .title {
+	font-size: 34px;
+	font-size: 2.125rem;/*line-height: 1.088;*/
+}
+
+h4, .subheading1, h1 + p {
+	font-size: 29px;
+	font-size: 1.8125rem;/*line-height: 1.4;*/
+}
+a:link {font-family: Source Sans;}
+a:visited {color: #a10dae;}
+small {
+	font-size: 0.8em;
+}
+em, strong {font-family: Source Sans Bold;}
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub, sup {
+	font-size: 14px;
+	font-size: 0.875rem;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+sup { top: -0.5em; }
+sub { bottom: -0.25em; }
+
+th {text-align: left;}
+/* End insert of rules from typography.html */
+
+/*________________________________________________________________________
+
+   Grid
+    
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯*/
+
+.grid {
+	display: flex; /* 1 */
+	flex-wrap: wrap; /* 2 */
+	margin-left: -0.5em; /* 5 (edit me!) */
+	margin-right: -0.5em;
+}
+.grid > * {
+	flex: 1 0 8em; /* 3 (edit me!) */
+	margin: 0.5em; /* 4 (edit me!) */
+}
+.yoda > * { flex: 1 0 5em; }
+div.do > img:first-child,
+div.dont > img:first-child {
+	min-width: 50%;
+	max-width: 100%;
+	margin: auto;
+}
+.do p,
+.dont p { margin-top: 6px; }
+/*p em {
+	display: block;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14pt;
+	padding-top: 0.25em;
+}*/
+.do em {
+	color: #007e7a;
+	border-top: 8px solid #00BEB7;
+	display: block;
+}
+.dont em {
+	color: #DC1E3D;
+	border-top: 8px solid #DC1E3D;
+	display: block;
+}
+
+.dark .dont em {
+	color: #f6bdc7;
+}
+.utility-header {
+	background-color: #E8E8EA;
+    background-color: #f4f3ef;
+}
+
+.utility-header a {
+	color: #696A71;
+}
+.utility-header a:hover,
+  .utility-header a:focus {
+  color: #231F20;
+}
+
+.navigation-search {
+  border-bottom: 1px solid #005A8C;
+  position: relative;
+}
+.first-level-link {
+    display: block;
+    padding: 30px 0;
+    white-space: nowrap;
+  font-size: 1.25em;
+  transition: all 0.3s ease-out;
+
+}
+
+.branding .header-organization-banner {
+	line-height: normal;
+}
+  
+  .header-cagov-logo img {
+  	height: 28px;
+  }
