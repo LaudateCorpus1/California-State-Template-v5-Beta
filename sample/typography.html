@@ -3,7 +3,7 @@
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
 <!--[if IE 9]>    <html class="no-js ie9 oldie" lang="en"> <![endif]-->
-<!--[if (gt IE 9)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if (gt IE 9)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <!-- 
 California State Template
@@ -12,210 +12,425 @@ Version 5.0
 Based on Twitter Bootstrap
 -->
 <meta charset="utf-8">
-
 <title>Sample - Typography</title>
-
-<meta name="Author" content="State of California" />
-<meta name="Description" content="State of California" />
-<meta name="Keywords" content="California, government" />
+<meta name="Author" content="State of California">
+<meta name="Description" content="State of California">
+<meta name="Keywords" content="California, government">
 
 <!--#include virtual="/ssi/head-css-js.html" -->
-    <style>
-        .text-huge {
-            font-size:6em;
-        }
-    </style>
+<style>
+.text-huge {
+	font-size: 6em;
+}
+</style>
 </head>
 
 <body>
-
-<header role="banner" id="header" class="global-header">
-	<div id="skip-to-content"><a href="#main-content">Skip to Main Content</a></div>    
-        <!-- Location Bar -->        
-		<!--#include virtual="/ssi/location-bar.html" -->
-        
-        <!-- Include Utility Header -->
-		<!--#include virtual="/ssi/utility-header.html" -->	
-        
-        <!-- Settings Bar -->	
-		<!--#include virtual="/ssi/settings-bar.html" -->
-
-		<!-- Include Branding -->
-		<!--#include virtual="/ssi/branding.html" -->
-    
-    <!-- Include Mobile Controls -->
-    <!--#include virtual="/ssi/mobile-controls.html" -->    
-    
-    <div class="navigation-search">      
-    <!-- Include Navigation -->
-      <!--#include virtual="/ssi/navigation.html" -->
-      
-      <div id="head-search" class="search-container">
-        <!-- Include Search -->
-        <!--#include virtual="/ssi/search.html" -->
-      </div>
-    
-    </div>
-    
+<header id="header" class="global-header">
+	<div id="skip-to-content"><a href="#main-content">Skip to Main Content</a></div>
+	<!-- Location Bar --> 
+	<!--#include virtual="/ssi/location-bar.html" --> 
+	
+	<!-- Include Utility Header --> 
+	<!--#include virtual="/ssi/utility-header.html" --> 
+	
+	<!-- Settings Bar --> 
+	<!--#include virtual="/ssi/settings-bar.html" --> 
+	
+	<!-- Include Branding --> 
+	<!--#include virtual="/ssi/branding.html" --> 
+	
+	<!-- Include Mobile Controls --> 
+	<!--#include virtual="/ssi/mobile-controls.html" -->
+	
+	<div class="navigation-search"> 
+		<!-- Include Navigation --> 
+		<!--#include virtual="/ssi/navigation.html" -->
+		
+		<div id="head-search" class="search-container"> 
+			<!-- Include Search --> 
+			<!--#include virtual="/ssi/search.html" --> 
+		</div>
+	</div>
 	<div class="header-decoration"></div>
 </header>
-
-
 <div id="main-content" class="main-content">
-    <div class="section">
-        <main class="main-primary">
-            <ol class="breadcrumb">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="index.html">Examples</a></li>
-                <li class="active">Typography</li>
-            </ol>
-            
-            <h1>Typography</h1>
-
-            <p class="lead">
-                State of California websites have common typographic needs: clear and consistent headings, highly legible body paragraphs,
-                clear labels, and easy-to-use input fields. We recommend a font system that uses open-source font family:
-                Source Sans Pro, which is designed for legibility and can beautifully adapt to a variety
-                of visual styles.
-            </p>
-            <hr />
-            <h2>Typeface</h2>
-
-
-            <div class="group">
-                <div class="half">
-                    <h4>Source Sans Pro</h4>
-                    <p>
-                        Source Sans Pro is an open-source sans serif typeface created for legibility in UI design.
-                        With a variety of weights that read easily at all sizes, Source Sans Pro provides clear headers
-                        as well as highly-readable body text.
-                    </p>
-                    <p>
-                        Inspired by twentieth-century American gothic typeface design, its slender but open letters
-                        offer a clean and friendly simplicity. Advanced hinting allows Source Sans Pro to render well
-                        on Windows systems which run Cleartype, and across browsers and devices. Moreover, it supports
-                        a variety of languages and alphabets, including Western and European language, Vietnamese, pinyin
-                        Romanization of Chinese, and Navajo.
-                    </p>
-                </div>
-                <div class="half">
-                    <span class="text-huge">Aa</span>
-                    <div>
-                        <p class="text-tiny">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</p>
-                        <p class="text-tiny">a b c d e f g h i j k l m n o p q r s t u v w x y z</p>
-                        <p class="text-tiny">0 1 2 3 4 5 6 7 8 9</p>
-                    </div>
-
-                    <p><a class="btn btn-default" href="https://fonts.google.com/specimen/Source+Sans+Pro">View Source Sans Pro in Google Fonts</a></p>
-                </div>
-            </div>
-            <hr />
-            <h2>Web Hierarchy</h2>
-            <div class="group">
-                <div class="half p-l-lg">
-                    <span class="h1">Heading 1</span>
-                </div>
-                <div class="half">
-                    <span class="monospace font-size-70x">
-                        font-family: 'Source Sans Pro'<br />
-                        font-weight: 400<br />
-                        font-size: 38px<br />
-                        line-height: 1.1
-                    </span>
-                </div>
-            </div>
-
-            <div class="group m-t-lg">
-                <div class="half p-l-lg">
-                    <span class="h2">Heading 2</span>
-                </div>
-                <div class="half">
-                    <span class="monospace font-size-70x">
-                        font-family: 'Source Sans Pro'<br />
-                        font-weight: 400<br />
-                        font-size: 31px<br />
-                        line-height: 1.1
-                    </span>
-                </div>
-            </div>
-
-            <div class="group m-t-lg">
-                <div class="half p-l-lg">
-                    <span class="h3">Heading 3</span>
-                </div>
-                <div class="half">
-                    <span class="monospace font-size-70x">
-                        font-family: 'Source Sans Pro'<br />
-                        font-weight: 400<br />
-                        font-size: 25px<br />
-                        line-height: 1.1
-                    </span>
-                </div>
-            </div>
-
-            <div class="group m-t-lg">
-                <div class="half p-l-lg">
-                    <span class="h4">Heading 4</span>
-                </div>
-                <div class="half">
-                    <span class="monospace font-size-70x">
-                        font-family: 'Source Sans Pro'<br />
-                        font-weight: 400<br />
-                        font-size: 20px<br />
-                        line-height: 1.1
-                    </span>
-                </div>
-            </div>
-
-            <div class="group m-t-lg">
-                <div class="half p-l-lg">
-                    <span class="h5">Heading 5</span>
-                </div>
-                <div class="half">
-                    <span class="monospace font-size-70x">
-                        font-family: 'Source Sans Pro'<br />
-                        font-weight: 400<br />
-                        font-size: 16px<br />
-                        line-height: 1.1
-                    </span>
-                </div>
-            </div>
-
-            <div class="group m-t-lg">
-                <div class="half p-l-lg">
-                    <span class="h6">Heading 6</span>
-                </div>
-                <div class="half">
-                    <span class="monospace font-size-70x">
-                        font-family: 'Source Sans Pro'<br />
-                        font-weight: 400<br />
-                        font-size: 14px<br />
-                        line-height: 1.1
-                    </span>
-                </div>
-            </div>
-            <hr />
-            <h2>Applying Web Font Into a Website</h2>
-            <p>To apply web font into a webpage following code needs to be copied into the &lt;head&gt; section of the HTML document:</p>
-
-            <pre><code class="language-html" data-lang="html"><span class="text-accent-p2">&lt;link</span> <span class="text-info">href=</span><span class="text-accent7">'https://fonts.googleapis.com/css?family=Source+Sans+Pro'</span> <span class="text-info">rel=</span><span class="text-accent7">'stylesheet'</span> <span class="text-info">type=</span><span class="text-accent7">'text/css'</span><span class="text-accent-p2">&gt;</span>
-</code></pre>
-            <p class="m-t-lg">Also, use the following CSS rules to specify web font familiy:</p>
-
-            <pre><code class="language-html" data-lang="html"><span class="text-accent-p2">font-family:</span><span class="text-info">'Source Sans Pro', sans-serif;</span></code></pre>
-            <br /><br />
-            
-            
-
-
-
-
-        </main>
-    </div>
+	<div class="section">
+		<main id="content" class="">
+			<section class="dark">
+				<div>
+					<h1>Typography
+						<div class="chip approved"> <a href="component-maturity.shtml" aria-describedby="component-maturity-tip">Approved<span role="tooltip" id="component-maturity-tip">Learn more about component maturity.</span></a> </div>
+					</h1>
+					<p>Effective typography communicates our brand, and promotes readability and accessibility. </p>
+				</div>
+			</section>
+			<section class="light">
+				<div> 
+					<p>This system uses scale and color to establish a clear typographic hierarchy. Type must be light and well-spaced to convey transparency and trust in FTB.</p>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h2>Source Sans Pro</h2>
+					<p>Source Sans Pro is our primary typeface for the web. Source Sans Pro is used by CA.gov and is recommended by the U.S. Web Design Standards for its legibility.</p>
+					<div class="grid">
+						<div>
+							<h3>Font weights</h3>
+							<p>We use three weights:</p>
+							<p class="font-render"> <span class="SSLight">Light</span> <span class="SSans">Regular</span> <span class="SSBold">Semi-bold</span> </p>
+						</div>
+						<div>
+							<h3>Characters</h3>
+							<p class="font-render char">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+								a b c d e f g h i j k l m n o p q r s t u v w x y z 0 1 2 3 4 5 6 7 8 9
+								~ ` ! @ # $ % ^ &amp; * ( ) - _ + = { } [ ] \ | : ; " ' &lt; &gt; , . / ?</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="light">
+				<div>
+					<h2>Type ramp</h2>
+					<p>The type ramp establishes a crucial design relationship from headings to paragraph text, and ensures a clear and understandable hierarchy between the different levels. This hierarchy builds a structure which enables users to easily scan through content. </p>
+					<ul>
+						<li>Source Sans Pro Light is the primary font style.</li>
+						<li>Styles, sizes, and line heights are specified to:
+							<ul>
+								<li>Balance content density and reading comfort with usability</li>
+								<li>Enable large type modes for accessiblity</li>
+							</ul>
+						</li>
+						<li>For best practices, convert pixels to the relative units, em and rem. They make simple, modular components when used together.</li>
+					</ul>
+					<table style="width: 100%;">
+						<thead>
+							<tr>
+								<th style="text-align: left;" width="28%">Source Sans Pro Light</th>
+								<th style="text-align: left;" width="28%">Font size</th>
+								<th style="text-align: left;" width="44%">Line height</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Display</td>
+								<td><span style="display: inline;">
+									<p class="display1">84px</p>
+									</span></td>
+								<td><span style="display: inline;">
+									<p class="display1">110px</p>
+									</span></td>
+							</tr>
+							<tr>
+								<td>Headline</td>
+								<td><h1>45px</h1></td>
+								<td><h1>58px</h1></td>
+							</tr>
+							<tr>
+								<td>Subheading 2</td>
+								<td><h2>40px</h2></td>
+								<td><h2>52px</h2></td>
+							</tr>
+							<tr>
+								<td>Title</td>
+								<td><h3>34px</h3></td>
+								<td><h3>44px</h3></td>
+							</tr>
+							<tr>
+								<td>Subheading 1</td>
+								<td><h4>30px</h4></td>
+								<td><h4>40px</h4></td>
+							</tr>
+							<tr>
+								<td>Body</td>
+								<td><p>20px</p></td>
+								<td><p>30px</p></td>
+							</tr>
+							<tr>
+								<td>Caption</td>
+								<td><small>16px</small></td>
+								<td><small>22px</small></td>
+							</tr>
+							<tr>
+								<td>Subscript and Superscript</td>
+								<td><sup>14px</sup></td>
+								<td><sup>0px</sup></td>
+							</tr>
+							<tr> </tr>
+						</tbody>
+					</table>
+					<h3>Code examples</h3>
+					<table style="width: 100%;">
+						<thead>
+							<tr>
+								<th style="text-align: left;" width="28%">Style</th>
+								<th style="text-align: left;" width="72%">Code</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Display</td>
+								<td><code style="white-space: nowrap">&lt;p class="display1"&gt;84px&lt;/p&gt;</code></td>
+							</tr>
+							<tr>
+								<td>Headline</td>
+								<td><code>&lt;h1&gt;45px&lt;/h1&gt;</code></td>
+							</tr>
+							<tr>
+								<td>Subheading 2</td>
+								<td><code>&lt;h2&gt;40px&lt;/h2&gt;</code></td>
+							</tr>
+							<tr>
+								<td>Title</td>
+								<td><code>&lt;h3&gt;34px&lt;/h3&gt;</code></td>
+							</tr>
+							<tr>
+								<td>Subheading 1</td>
+								<td><code>&lt;h4&gt;29px&lt;/h4&gt;</code></td>
+							</tr>
+							<tr>
+								<td>Body</td>
+								<td><code>&lt;p&gt;24px&lt;/p&gt;</code></td>
+							</tr>
+							<tr>
+								<td>Caption</td>
+								<td><code>&lt;small&gt;19px&lt;/small&gt;</code></td>
+							</tr>
+							<tr>
+								<td>Subscript</td>
+								<td><code>&lt;sub&gt;14px&lt;/sub&gt;</code></td>
+							</tr>
+							<tr>
+								<td>Superscript</td>
+								<td><code>&lt;sup&gt;14px&lt;/sup&gt;</code></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h2>Line length</h2>
+					<p>Comfortable line length allows the user’s eyes to flow easily from the end of one line to the beginning of the next.</p>
+					<div class="grid yoda">
+						<div>
+							<p>For a single column of text, line length must have an average of 90 characters per line, including spaces.</p>
+						</div>
+						<div class="do"> <img src="/standards/assets/img/typography-line-length.jpg" alt="There must be about 90 characters per line in a single column of text."> </div>
+					</div>
+				</div>
+			</section>
+			<section class="light">
+				<div>
+					<h2>Spacing</h2>
+					<p>Type spacing should be open enough to feel light, but close enough to establish proper readability and appropriate pacing.</p>
+					<div class="grid yoda">
+						<div>
+							<h3>Heading followed by text</h3>
+							<p>When a heading is followed by paragraph text, add .25em of space to the established line height. </p>
+						</div>
+						<div class="do"> <img src="/standards/assets/img/typography-spacing-headings.jpg" alt="There must be 5 pixels of space between the title and the paragraph."> <br>
+							<small>In this example, an additional 5px (.25em) of space is above the paragraph text.</small> </div>
+					</div>
+					<div class="grid yoda">
+						<div>
+							<h3>Text followed by a heading</h3>
+							<p>When paragraph text is followed by a heading, add 1em of space to the established line height.</p>
+						</div>
+						<div class="do"> <img src="/standards/assets/img/typography-spacing-text-after-head.jpg" alt="There must be 34 pixels of space between the paragraph and the title."> <br>
+							<small>In this example, an additional 34px (1em) of space is above the Title style.</small> </div>
+					</div>
+					<div class="grid yoda">
+						<div>
+							<h3>Heading followed by a subheading</h3>
+							<p>When a primary heading is followed by a secondary heading, add .25em of space to the established line height. </p>
+						</div>
+						<div class="do"> <img src="/standards/assets/img/typography-spacing-headlines.jpg" alt="There must be 8 pixels of space between the heading and the subheading."> <br>
+							<small>In this example, an additional 8px (.25em) of space is above the Title style.</small> </div>
+					</div>
+					<div class="grid yoda">
+						<div>
+							<h3>Paragraph text</h3>
+							<p>When multiple paragraphs are within the same section, add 1em of space to the established line height. </p>
+						</div>
+						<div class="do"> <img src="/standards/assets/img/typography-spacing-paragraphs.jpg" alt="There must be 20 pixels of space between the paragraphs."> <br>
+							<small>In this example, an additional 20px (1em) of space is between the paragraph text.</small> </div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h2>Lists</h2>
+					<p>Lists organize written information for users.</p>
+					<div class="grid yoda">
+						<div>
+							<ul>
+								<li>Apply our custom bullet style to unordered and nested list items.</li>
+								<li>Left-align the first level of list items and only indent the nested items.</li>
+								<li>Add 10px of space above the first level list item.</li>
+								<li>Add 5px of space above the rest of the following list items. </li>
+							</ul>
+						</div>
+						<div class="do"> <img src="/standards/assets/img/typography-lists-ul-ol.jpg" alt="There must be 10 pixels of space between the list names and the first level of list items. There must be 5 pixels of space between the rest of the following list items."> </div>
+					</div>
+				</div>
+			</section>
+			<section class="light">
+				<div>
+					<h2>Blockquotes</h2>
+					<p>Blockquotes  call out a block of text, as a quotation, from paragraph text.</p>
+					<div class="grid yoda">
+						<div>
+							<ul>
+								<li>Use sentence case without quotation marks.</li>
+								<li>Add a caption to identify the source of a quotation.</li>
+								<li>For best practices, add a cite atttribute - it specifies the source of a quotation in HTML.</li>
+							</ul>
+							<h4>Specs</h4>
+							<h5>Graphic element (vertical bar)</h5>
+							<ul>
+								<li>Border left width: 2px</li>
+								<li>Border left style: solid</li>
+								<li>Border left color: Graphite, 15%</li>
+							</ul>
+							<h5>Layout</h5>
+							<ul>
+								<li>Padding above: .5em</li>
+								<li>Padding below: .5em</li>
+								<li>Padding right: .5em</li>
+								<li>Padding left: 1.75em</li>
+							</ul>
+						</div>
+						<div class="do"> <img src="/standards/assets/img/typography-blockquote.jpg" alt="There must be 35 pixels of space between the graphic element (vertical bar) and the block quote. There must be 10 pixels of space above, below, and on the right of the quote."> <br>
+							<small>In this example,  an additional 35px (1.75em) of space is between the 2px vertical bar and the quote; and an additional 10px (.5em) of space are above, below, and on the right of the quote.</small> </div>
+					</div>
+				</div>
+			</section>
+			<section id="links" tabindex="-1">
+				<div>
+					<h2>Links</h2>
+					<p>Links lead users to a different page or further information.</p>
+					<div class="grid yoda">
+						<div>
+							<div class="grid yoda">
+								<div>
+									<ul>
+										<li>Source Sans Pro Regular is the font style for text links.</li>
+										<li>Text links are FTB Blue.</li>
+										<li>Visited text links are Grape (purple).</li>
+										<li>Avoid links that open new windows. They cause both accessibility and usability concerns.
+											<ul>
+												<li>When they must be used, an accessible tooltip is included to indicate that a new window will open.</li>
+											</ul>
+										</li>
+									</ul>
+								</div>
+								<div class="do">
+									<h3>Link examples</h3>
+									<p class="dark graphite">This is a <a href="javascript:void(0);">text link</a> on a dark background.</p>
+									<p class="snippet">This is a <a href="javascript:void(0);">text link</a> on a light background.</p>
+									<p>This is a<a href="typography.shtml" class="visited">visited text link</a>.</p>
+									<p>This is a <a href="color.shtml" target="_blank" aria-describedby="tooltip-text-link-that-opens-a-new-tab-or-window">text link that opens a new tab or window<span role="tooltip" id="tooltip-text-link-that-opens-a-new-tab-or-window">Opens in new window</span></a>.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<section class="light">
+					<div>
+						<h2>Guidelines</h2>
+						<p>Readable text makes good use of alignment, line height, white space, and contrast.</p>
+						<div class="grid yoda">
+							<div>
+								<h3>Alignment</h3>
+								<p>Visual elements and columns of type must be left-aligned. </p>
+							</div>
+							<div class="do"> <img src="/standards/assets/img/typography-do-align.jpg" alt=" We must left-aligned type and only indent nested list items.">
+								<p><em>Do.</em> Left-align type to provide the eye a constant starting point for each line. Only indent nested list items.</p>
+							</div>
+							<div class="dont"> <img src="/standards/assets/img/typography-dont-align.jpg" alt="We don't indent the first level of list items.">
+								<p><em>Don't.</em> Indent the first level of list items. </p>
+							</div>
+						</div>
+						<div class="grid yoda">
+							<div>
+								<h3>Line height</h3>
+								<p>Create ample space between lines of type to promote an open feeling and easy read.</p>
+							</div>
+							<div class="do"> <img src="/standards/assets/img/typography-do-1-line-display.jpg" alt="The Display style must be short and on a single line in mobile view mode. All other heading styles can wrap to the next line.">
+								<p><em>Do.</em> Keep Display style short and on a single line in mobile view mode. All other heading styles can wrap to the next line.</p>
+							</div>
+							<div class="dont"> <img src="/standards/assets/img/typography-dont-wrap-display.jpg" alt="We don't use the Display style if text needs to wrap to the next line in mobile view mode.">
+								<p><em>Don't.</em> Use Display style if text needs to wrap in mobile view mode.</p>
+							</div>
+						</div>
+						<div class="grid yoda">
+							<div>
+								<h3>White space</h3>
+								<p>White space between typographic elements should guide users to focus their attention on the content.</p>
+							</div>
+							<div class="do"> <img src="/standards/assets/img/typography-do-skip-line.jpg" alt="We must indicate paragraphs by skipping a line and don't indent the first line of type.">
+								<p><em>Do.</em> Indicate paragraphs by skipping a line without indentation.</p>
+							</div>
+							<div class="dont"> <img src="/standards/assets/img/typography-dont-fill-space.jpg" alt="We don't fill the space with several messages and apply various styles to the text.">
+								<p><em>Don't.</em> Fill space with several messages that confuse, distract, or overwhelm users.<br>
+								</p>
+							</div>
+						</div>
+						<div class="grid yoda">
+							<div>
+								<h3>Contrast</h3>
+								<p></p>
+								Create focus points with contrasting type size, color, and style to help users easily scan through content. Ensure colors meet appropriate contrast ratios. See <a href="/standards/color.shtml">Color</a>.
+								<p></p>
+							</div>
+							<div class="do"> <img src="/standards/assets/img/typography-do-white-on-dark.jpg" alt="We must use white text on dark backgrounds and Onyx text on light backgrounds.">
+								<p><em>Do.</em> Use white text on dark backgrounds and Onyx text on light backgrounds.</p>
+							</div>
+							<div class="dont"> <img src="/standards/assets/img/typography-dont-blue-text.jpg" alt="We don't apply FTB Blue to various parts of the text—only to linked text.">
+								<p><em>Don't.</em> Use FTB Blue for text, unless it's for a hyperlink.</p>
+							</div>
+						</div>
+						<div class="grid yoda">
+							<div>
+								<h3>&nbsp;</h3>
+							</div>
+							<div class="do"> <img src="/standards/assets/img/typography-do-blue-links.jpg" alt="We must use Source Sans Pro Regular and FTB Blue for text links.">
+								<p><em>Do.</em> Use Source Sans Pro Regular in FTB Blue for text links. </p>
+							</div>
+							<div class="dont"> <img src="/standards/assets/img/typography-dont-overstyle.jpg" alt="We don't use all caps, underline, or italic styles for text links.">
+								<p><em>Don't.</em>Use all caps, underline, or italic styles for text links.</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section>
+					<section>
+						<div>
+							<h2>Resources</h2>
+							<ul>
+								<li><a href="http://beta.template.webtools.ca.gov/sample/blockquotes.html">CA.gov - Blockquotes</a> </li>
+								<li><a href="https://cfpb.github.io/design-manual/brand-guidelines/typography.html">Consumer Financial Protection Bureau Design Manual - Typography</a> </li>
+								<li><a href="http://google.github.io/material-design-icons/">Material Design - </a><a href="https://material.io/guidelines/layout/responsive-ui.html#">Responsive UI</a></li>
+								<li><a href="http://google.github.io/material-design-icons/">Material Design - </a><a href="https://material.io/guidelines/style/typography.html">Typography</a></li>
+								<li><a href="https://docs.microsoft.com/en-us/windows/uwp/style/typography
+">Microsoft Universal Windows Platform Style Guide -Typography</a></li>
+								<li><a href="https://standards.usa.gov/components/typography/
+">U.S. Web Design Standards - Typography</a></li>
+								<li><a href="https://www.w3schools.com/tags/att_blockquote_cite.asp
+">w3schools - Blockquote</a></li>
+							</ul>
+						</div>
+					</section>
+				</section>
+			</section>
+		</main>
+	</div>
 </div>
 
-
-<!--#include virtual="/ssi/global-footer.html" -->
+<!--#include virtual="/ssi/global-footer.html" --> 
 
 <!--#include virtual="/ssi/scripts.html" -->
 
